@@ -1,0 +1,87 @@
+ Estrutura do App
+1. Onboarding Inteligente
+Em vez de pedir RG e CPF logo de cara, o app pode começar com cadastro simples (nome, e-mail, senha).
+
+Depois, conforme o usuário for usando, você solicita dados adicionais (RG, CPF) apenas quando necessário para segurança ou integração bancária.
+
+Isso reduz a barreira inicial e aumenta a adesão.
+
+
+
+
+2. Dashboard Financeiro
+Visão rápida: saldo atual, entradas e saídas do mês.
+
+Gráfico dinâmico: pizza ou barras mostrando categorias de gastos.
+
+Indicadores visuais:
+
+🔴 Vermelho → gastos supérfluos (bares, jogos, compras impulsivas).
+
+🟢 Verde → gastos essenciais (supermercado, contas fixas).
+
+Insights da IA: frases curtas e diretas, como:
+
+“Você gastou 15% a mais em lazer este mês.”
+
+“Parabéns, reduziu gastos com delivery em 20%.”
+
+
+
+
+3. Chatbox com IA
+Lateral discreta, estilo “assistente financeiro”.
+
+Pode responder dúvidas (“Como economizar no supermercado?”) e sugerir metas personalizadas.
+
+IA também pode enviar alertas proativos:
+
+“Seu gasto com transporte está acima da média, quer dicas para reduzir?”
+
+
+
+
+4. Relatórios Mensais
+Exportação em PDF opcional.
+
+Comparação mês a mês (ex.: “Você economizou 12% mais que no mês anterior”).
+
+Sugestão de metas: “Tente guardar R$200 no próximo mês.”
+
+
+
+
+🎨 Estilo Refinado
+Minimalista + Intuitivo: fundo claro, ícones simples, cores verde/vermelho para destaque.
+
+Gamificação leve: medalhas ou conquistas (“Economizou 3 meses seguidos!”).
+
+Design mobile-first: tudo pensado para uso rápido com uma mão só.
+
+
+
+
+🛠️ Tecnologias (refinadas)
+Frontend: Flutter (ótimo para Android/iOS com um único código).
+
+Backend: Node.js  com NestJS (estrutura organizada e escalável).
+
+Banco de dados: PostgreSQL (seguro e robusto).
+
+IA: classificação de gastos com modelos de machine learning + integração com Copilot/ChatGPT para chatbox.
+
+Segurança: autenticação biométrica (FaceID/TouchID) e criptografia ponta a ponta.
+
+
+
+
+🚀 Roadmap de Desenvolvimento
+Wireframe no Figma → desenhar telas principais (login, dashboard, relatório).
+
+MVP (Produto Mínimo Viável): login + dashboard simples com entradas/saídas.
+
+IA básica: categorização automática de gastos.
+
+Chatbox inteligente: dicas financeiras personalizadas.
+
+Relatórios mensais + gamificação.
