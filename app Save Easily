@@ -1,5 +1,8 @@
 
 📱 Estrutura do App
+
+PRD refinado no Copilot
+
 1. Login e Cadastro
 Campos: nome, CPF, RG, data de nascimento, e-mail, senha.
 
@@ -157,3 +160,5 @@ IA básica: categorização automática de gastos.
 Chatbox inteligente: dicas financeiras personalizadas.
 
 Relatórios mensais + gamificação.
+
+link do Lovable: https://zen-wallet-guide.lovable.app
